@@ -2,13 +2,13 @@
 ## Profil
 | # | Biodata |
 | -------- | --- |
-| **Nama** | Reza Riyaldi Irawan |
-| **NIM** | 312010284 |
-| **Kelas** | TI.20.A.2 |
+| **Nama** | Nurokhim |
+| **NIM** | 312010064 |
+| **Kelas** | TI.20.D.1 |
 | **Mata Kuliah** | Pemrograman Web |
 
 ## Demo Web Apps
-Klik link berikut untuk menjalankan aplikasi [Antrian](https://antrian.rezariyaldi.my.id).
+Klik link berikut untuk menjalankan aplikasi [Antrian](https://nurokhim.my.id).
 
 ## Review Web Apps
 Berikut link [Youtube](https://youtu.be/J9y2jHKN_Yw) untuk melihat sekilas tentang Web antrian.
@@ -17,8 +17,8 @@ Berikut link [Youtube](https://youtu.be/J9y2jHKN_Yw) untuk melihat sekilas tenta
 1. Registration Admin
 2. Login Admin
    - Yang tersedia:
-     - Username: `admin`
-     - Password: `admin`
+     - Username: nurokhim
+     - Password: `nurokhim312010064`
 
 3. Apabila **BELUM** login:
      * Ambil nomor antrian
