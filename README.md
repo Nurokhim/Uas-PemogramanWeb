@@ -29,7 +29,15 @@ UNIVERSITAS PELITA BANGSA
 Link untuk akses web :
 
 <ul>
-  <li>user : http://nurokhim.my.id 
+  <li>user : http://nurokhim.my.id <li>
   
-<ul>
-  <li>admin  :
+  <li>admin  :http://nurokhim.my.id/admin/login <li>
+   
+Untuk mengakses halaman admin :
+
+    <ul>
+      <li>username : nurokhim<li>
+      
+      <li>password : nurokhim312010064<li>
+      
+ Link demo : 
