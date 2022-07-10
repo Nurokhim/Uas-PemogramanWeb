@@ -1,0 +1,958 @@
+ERROR - 2022-07-05 11:25:08 --> Error connecting to the database: Unknown database 'antrian'
+CRITICAL - 2022-07-05 11:25:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'antrian'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 3 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:26:07 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:26:07 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:46 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:46 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:48 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:48 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:49 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:49 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:49 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:49 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:49 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:49 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:50 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:50 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:50 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:50 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:28:50 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:28:50 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:30:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:30:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 3 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:30:20 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:30:20 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 11:31:23 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 11:31:23 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 13:05:39 --> Error connecting to the database: Unknown database 'antrian'
+CRITICAL - 2022-07-05 13:05:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'antrian'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 3 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 13:12:18 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 13:12:18 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 13:12:20 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 13:12:20 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 13:13:13 --> Table 'antrian.antrian' doesn't exist in engine
+CRITICAL - 2022-07-05 13:13:13 --> Table 'antrian.antrian' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`', [], false)
+ 5 APPPATH\Controllers\Antrian.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 13:14:08 --> Table 'antrian.pelayanan' doesn't exist in engine
+CRITICAL - 2022-07-05 13:14:08 --> Table 'antrian.pelayanan' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelayanan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelayanan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelayanan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelayanan`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Pelayanan.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:22:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH\Controllers\Antrian.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:24:20 --> Attempt to increment/decrement property "no_antrian" on array
+in APPPATH\Controllers\Antrian.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:24:31 --> Attempt to read property "no_antrian" on array
+in APPPATH\Controllers\Antrian.php on line 38.
+ 1 APPPATH\Controllers\Antrian.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_antrian" on array', 'APPPATH\\Controllers\\Antrian.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:25:00 --> Attempt to read property "no_antrian" on array
+in APPPATH\Controllers\Antrian.php on line 42.
+ 1 APPPATH\Controllers\Antrian.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_antrian" on array', 'APPPATH\\Controllers\\Antrian.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:25:08 --> Attempt to read property "no_antrian" on array
+in APPPATH\Controllers\Antrian.php on line 42.
+ 1 APPPATH\Controllers\Antrian.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_antrian" on array', 'APPPATH\\Controllers\\Antrian.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:25:14 --> Attempt to read property "no_antrian" on array
+in APPPATH\Controllers\Antrian.php on line 42.
+ 1 APPPATH\Controllers\Antrian.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_antrian" on array', 'APPPATH\\Controllers\\Antrian.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:30:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH\Controllers\Antrian.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:39:16 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$no_antrian
+in APPPATH\Controllers\Antrian.php on line 42.
+ 1 APPPATH\Controllers\Antrian.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$no_antrian', 'APPPATH\\Controllers\\Antrian.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:41:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:41:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:42:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:42:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:42:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:43:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:43:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:43:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::numRows()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:43:30 --> Cannot access protected property CodeIgniter\Database\MySQLi\Result::$numRows
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:43:50 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 APPPATH\Controllers\Antrian.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result', 'APPPATH\\Controllers\\Antrian.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:43:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:44:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:44:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:44:28 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result
+in APPPATH\Controllers\Antrian.php on line 40.
+ 1 APPPATH\Controllers\Antrian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result', 'APPPATH\\Controllers\\Antrian.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 13:44:34 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$no_antrian
+in APPPATH\Controllers\Antrian.php on line 44.
+ 1 APPPATH\Controllers\Antrian.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$no_antrian', 'APPPATH\\Controllers\\Antrian.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:29:09 --> Call to undefined function App\Controllers\now()
+in APPPATH\Controllers\Antrian.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:29:30 --> Call to undefined function App\Controllers\now()
+in APPPATH\Controllers\Antrian.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:29:45 --> Call to undefined function App\Controllers\now()
+in APPPATH\Controllers\Antrian.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 15:31:17 --> Table 'antrian.admin' doesn't exist
+CRITICAL - 2022-07-05 15:31:17 --> Table 'antrian.admin' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `admin`
+WHERE `username` = \'admin\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `admin`
+WHERE `username` = \'admin\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `admin`
+WHERE `username` = \'admin\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `username` = :username:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(57): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth->process_login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:36:18 --> Undefined array key "kode"
+in APPPATH\Controllers\Antrian.php on line 52.
+ 1 APPPATH\Controllers\Antrian.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Antrian.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 15:38:37 --> Column 'pelayanan_id' in where clause is ambiguous
+CRITICAL - 2022-07-05 15:38:37 --> Column 'pelayanan_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = :pelayanan_id:
+AND `created_at` = :created_at:', [...], false)
+ 5 APPPATH\Controllers\Antrian.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:40:03 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:40:06 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:40:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:40:19 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:42:11 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:42:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:42:43 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 15:43:49 --> Column 'pelayanan_id' in where clause is ambiguous
+CRITICAL - 2022-07-05 15:43:49 --> Column 'pelayanan_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = :pelayanan_id:
+AND `created_at` = :created_at:', [...], false)
+ 5 APPPATH\Controllers\Antrian.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 15:44:24 --> Column 'pelayanan_id' in where clause is ambiguous
+CRITICAL - 2022-07-05 15:44:24 --> Column 'pelayanan_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = :pelayanan_id:
+AND `created_at` = :created_at:', [...], false)
+ 5 APPPATH\Controllers\Antrian.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 15:44:25 --> Column 'pelayanan_id' in where clause is ambiguous
+CRITICAL - 2022-07-05 15:44:25 --> Column 'pelayanan_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = \'1\'
+AND `created_at` = \'2022-07-05\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+JOIN `pelayanan` ON `pelayanan`.`id_pelayanan` = `antrian`.`pelayanan_id`
+WHERE `pelayanan_id` = :pelayanan_id:
+AND `created_at` = :created_at:', [...], false)
+ 5 APPPATH\Controllers\Antrian.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:46:17 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result
+in APPPATH\Controllers\Antrian.php on line 45.
+ 1 APPPATH\Controllers\Antrian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result', 'APPPATH\\Controllers\\Antrian.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:46:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Controllers\Antrian.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:48:19 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Antrian.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:53:40 --> Cannot access protected property CodeIgniter\Database\MySQLi\Result::$numRows
+in APPPATH\Controllers\Antrian.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:53:47 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Antrian.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:54:55 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$last
+in APPPATH\Controllers\Antrian.php on line 41.
+ 1 APPPATH\Controllers\Antrian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$last', 'APPPATH\\Controllers\\Antrian.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:54:57 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$lastRow
+in APPPATH\Controllers\Antrian.php on line 41.
+ 1 APPPATH\Controllers\Antrian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$lastRow', 'APPPATH\\Controllers\\Antrian.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:55:00 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Antrian.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 15:57:07 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Antrian.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 16:00:43 --> Undefined array key "id_pelayanan"
+in APPPATH\Views\pelayanan\v_pelayanan.php on line 35.
+ 1 APPPATH\Views\pelayanan\v_pelayanan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelayanan"', 'APPPATH\\Views\\pelayanan\\v_pelayanan.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelayanan\\v_pelayanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan/v_pelayanan', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(30): view('pelayanan/v_pelayanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-05 16:01:08 --> Unknown column 'loket.id_pelayanan' in 'on clause'
+CRITICAL - 2022-07-05 16:01:08 --> Unknown column 'loket.id_pelayanan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelayanan`
+JOIN `loket` ON `loket`.`id_pelayanan` = `pelayanan`.`id_pelayanan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelayanan`
+JOIN `loket` ON `loket`.`id_pelayanan` = `pelayanan`.`id_pelayanan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelayanan`
+JOIN `loket` ON `loket`.`id_pelayanan` = `pelayanan`.`id_pelayanan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelayanan`
+JOIN `loket` ON `loket`.`id_pelayanan` = `pelayanan`.`id_pelayanan`', [], false)
+ 5 APPPATH\Controllers\Pelayanan.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 16:08:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pelayanan\v_pelayanan.php on line 71.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan/v_pelayanan', [], true)
+ 4 APPPATH\Controllers\Pelayanan.php(30): view('pelayanan/v_pelayanan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 16:09:25 --> Undefined array key "id_loket"
+in APPPATH\Views\pelayanan\v_pelayanan.php on line 35.
+ 1 APPPATH\Views\pelayanan\v_pelayanan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loket"', 'APPPATH\\Views\\pelayanan\\v_pelayanan.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelayanan\\v_pelayanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan/v_pelayanan', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(32): view('pelayanan/v_pelayanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 16:13:29 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$fetchAssoc
+in APPPATH\Controllers\Pelayanan.php on line 23.
+ 1 APPPATH\Controllers\Pelayanan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$fetchAssoc', 'APPPATH\\Controllers\\Pelayanan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 16:13:29 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$fetchAssoc
+in APPPATH\Controllers\Pelayanan.php on line 23.
+ 1 APPPATH\Controllers\Pelayanan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$fetchAssoc', 'APPPATH\\Controllers\\Pelayanan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 16:13:34 --> Call to protected method CodeIgniter\Database\MySQLi\Result::fetchAssoc() from scope app\Controllers\Pelayanan
+in APPPATH\Controllers\Pelayanan.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 22:38:37 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Antrian.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Antrian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Antrian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Antrian')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Antrian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 22:38:46 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Antrian.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Antrian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Antrian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Antrian')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Antrian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 22:38:47 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Antrian.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Antrian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Antrian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Antrian')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Antrian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 22:40:22 --> Undefined variable $get
+in APPPATH\Controllers\Antrian.php on line 54.
+ 1 APPPATH\Controllers\Antrian.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get', 'APPPATH\\Controllers\\Antrian.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->ambil_antrian('1', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 22:58:45 --> syntax error, unexpected token "/"
+in APPPATH\Views\antrian\v_antrian.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 3 APPPATH\Controllers\Antrian.php(38): view('antrian/v_antrian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-05 23:20:08 --> syntax error, unexpected token "<"
+in APPPATH\Views\antrian\v_antrian.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 3 APPPATH\Controllers\Antrian.php(35): view('antrian/v_antrian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

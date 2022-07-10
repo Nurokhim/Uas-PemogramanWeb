@@ -1,0 +1,34 @@
+ERROR - 2022-07-09 08:51:15 --> Cannot delete or update a parent row: a foreign key constraint fails (`antrian`.`antrian`, CONSTRAINT `antrian_ibfk_1` FOREIGN KEY (`loket_id`) REFERENCES `loket` (`id_loket`))
+CRITICAL - 2022-07-09 08:51:15 --> Cannot delete or update a parent row: a foreign key constraint fails (`antrian`.`antrian`, CONSTRAINT `antrian_ibfk_1` FOREIGN KEY (`loket_id`) REFERENCES `loket` (`id_loket`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `loket`
+WHERE `id_loket` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `loket`
+WHERE `id_loket` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `loket`
+WHERE `id_loket` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `loket`
+WHERE `id_loket` = :id_loket:', [...], false)
+ 5 APPPATH\Controllers\Loket.php(182): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->delete_loket('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 08:52:04 --> Cannot delete or update a parent row: a foreign key constraint fails (`antrian`.`antrian`, CONSTRAINT `antrian_ibfk_2` FOREIGN KEY (`pelayanan_id`) REFERENCES `pelayanan` (`id_pelayanan`))
+CRITICAL - 2022-07-09 08:52:04 --> Cannot delete or update a parent row: a foreign key constraint fails (`antrian`.`antrian`, CONSTRAINT `antrian_ibfk_2` FOREIGN KEY (`pelayanan_id`) REFERENCES `pelayanan` (`id_pelayanan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelayanan`
+WHERE `id_pelayanan` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelayanan`
+WHERE `id_pelayanan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelayanan`
+WHERE `id_pelayanan` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelayanan`
+WHERE `id_pelayanan` = :id_pelayanan:', [...], false)
+ 5 APPPATH\Controllers\Pelayanan.php(142): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->delete_pelayanan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

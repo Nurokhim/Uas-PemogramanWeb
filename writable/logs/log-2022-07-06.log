@@ -1,0 +1,594 @@
+CRITICAL - 2022-07-06 08:42:20 --> syntax error, unexpected token "else"
+in APPPATH\Views\pelayanan\v_pelayanan.php on line 87.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan/v_pelayanan', [], true)
+ 3 APPPATH\Controllers\Pelayanan.php(33): view('pelayanan/v_pelayanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 08:54:22 --> Undefined variable $color
+in APPPATH\Views\antrian\v_antrian.php on line 53.
+ 1 APPPATH\Views\antrian\v_antrian.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $color', 'APPPATH\\Views\\antrian\\v_antrian.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\antrian\\v_antrian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 5 APPPATH\Controllers\Antrian.php(36): view('antrian/v_antrian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 09:04:02 --> Undefined variable $no
+in APPPATH\Views\antrian\v_antrian.php on line 30.
+ 1 APPPATH\Views\antrian\v_antrian.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'APPPATH\\Views\\antrian\\v_antrian.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\antrian\\v_antrian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 5 APPPATH\Controllers\Antrian.php(36): view('antrian/v_antrian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 09:17:35 --> Undefined array key "nama_pelayanan"
+in APPPATH\Views\antrian\v_antrian.php on line 44.
+ 1 APPPATH\Views\antrian\v_antrian.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pelayanan"', 'APPPATH\\Views\\antrian\\v_antrian.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\antrian\\v_antrian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 5 APPPATH\Controllers\Antrian.php(36): view('antrian/v_antrian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 09:21:10 --> Undefined variable $antrian
+in APPPATH\Views\antrian\v_antrian.php on line 28.
+ 1 APPPATH\Views\antrian\v_antrian.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $antrian', 'APPPATH\\Views\\antrian\\v_antrian.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\antrian\\v_antrian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 5 APPPATH\Controllers\Antrian.php(36): view('antrian/v_antrian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 09:21:22 --> Undefined array key "nama_pelayanan"
+in APPPATH\Views\antrian\v_antrian.php on line 44.
+ 1 APPPATH\Views\antrian\v_antrian.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pelayanan"', 'APPPATH\\Views\\antrian\\v_antrian.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\antrian\\v_antrian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 5 APPPATH\Controllers\Antrian.php(36): view('antrian/v_antrian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:00:59 --> Call to undefined method CodeIgniter\Session\Session::getUserdata()
+in APPPATH\Views\antrian\v_antrian.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 4 APPPATH\Controllers\Antrian.php(37): view('antrian/v_antrian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:10:33 --> Unclosed '[' does not match '}'
+in APPPATH\Views\loket\v_loket.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_loket', [], true)
+ 3 APPPATH\Controllers\Loket.php(28): view('loket/v_loket', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:16:28 --> Undefined array key "nama_loket"
+in APPPATH\Controllers\Loket.php on line 40.
+ 1 APPPATH\Controllers\Loket.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Controllers\\Loket.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:16:37 --> Undefined array key "nama_loket"
+in APPPATH\Controllers\Loket.php on line 40.
+ 1 APPPATH\Controllers\Loket.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Controllers\\Loket.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:23:41 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(51): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:26:04 --> Too few arguments to function App\Controllers\Loket::detail_loket(), 1 passed in C:\xampp\htdocs\antrian\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\Loket.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-06 11:26:55 --> Column 'pelayanan_id' in where clause is ambiguous
+CRITICAL - 2022-07-06 11:26:55 --> Column 'pelayanan_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+LEFT JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+WHERE `id_loket` = \'3\'
+AND `pelayanan_id` = \'3\'
+AND `created_at` = \'2022-07-06\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+LEFT JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+WHERE `id_loket` = \'3\'
+AND `pelayanan_id` = \'3\'
+AND `created_at` = \'2022-07-06\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+LEFT JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+WHERE `id_loket` = \'3\'
+AND `pelayanan_id` = \'3\'
+AND `created_at` = \'2022-07-06\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+LEFT JOIN `loket` ON `loket`.`id_loket` = `antrian`.`loket_id`
+WHERE `id_loket` = :id_loket:
+AND `pelayanan_id` = :pelayanan_id:
+AND `created_at` = :created_at:', [...], false)
+ 5 APPPATH\Controllers\Loket.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:27:23 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:28:06 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:28:57 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:29:27 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:31:25 --> Array to string conversion
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:37:38 --> syntax error, unexpected token "<"
+in APPPATH\Views\loket\v_detail_loket.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 3 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:40:28 --> Undefined array key 0
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:57:53 --> Cannot access offset of type string on string
+in APPPATH\Views\loket\v_detail_loket.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 4 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:59:01 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 11:59:17 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:51:30 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(52): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:52:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\loket\v_detail_loket.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 4 APPPATH\Controllers\Loket.php(53): view('loket/v_detail_loket', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('1', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:53:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\loket\v_detail_loket.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 4 APPPATH\Controllers\Loket.php(53): view('loket/v_detail_loket', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('1', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:53:18 --> Undefined property: stdClass::$nama_loket
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_loket', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(53): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('1', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:54:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+in APPPATH\Controllers\Loket.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:55:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::lastQuery()
+in APPPATH\Controllers\Loket.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:55:03 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$lastQuery
+in APPPATH\Controllers\Loket.php on line 45.
+ 1 APPPATH\Controllers\Loket.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$lastQuery', 'APPPATH\\Controllers\\Loket.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:55:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getLastQuery()
+in APPPATH\Controllers\Loket.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:55:57 --> Call to a member function getLastQuery() on array
+in APPPATH\Controllers\Loket.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:56:08 --> Attempt to read property "getLastQuery" on array
+in APPPATH\Controllers\Loket.php on line 45.
+ 1 APPPATH\Controllers\Loket.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "getLastQuery" on array', 'APPPATH\\Controllers\\Loket.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:56:55 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\Loket.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Loket.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Loket')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Loket')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Loket', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:56:59 --> Attempt to read property "kode_antrian" on null
+in APPPATH\Views\loket\v_detail_loket.php on line 13.
+ 1 APPPATH\Views\loket\v_detail_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_antrian" on null', 'APPPATH\\Views\\loket\\v_detail_loket.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:57:15 --> Attempt to read property "kode_antrian" on null
+in APPPATH\Views\loket\v_detail_loket.php on line 13.
+ 1 APPPATH\Views\loket\v_detail_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_antrian" on null', 'APPPATH\\Views\\loket\\v_detail_loket.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:57:24 --> Attempt to read property "kode_antrian" on null
+in APPPATH\Views\loket\v_detail_loket.php on line 13.
+ 1 APPPATH\Views\loket\v_detail_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_antrian" on null', 'APPPATH\\Views\\loket\\v_detail_loket.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:58:12 --> Attempt to read property "kode_antrian" on null
+in APPPATH\Views\loket\v_detail_loket.php on line 13.
+ 1 APPPATH\Views\loket\v_detail_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_antrian" on null', 'APPPATH\\Views\\loket\\v_detail_loket.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:58:38 --> Attempt to read property "nama_loket" on null
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_loket" on null', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:59:29 --> Undefined array key "nama_loket"
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_loket"', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:59:46 --> Undefined array key 0
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 12:59:52 --> Array to string conversion
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 13:00:05 --> Array to string conversion
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 13:00:06 --> Array to string conversion
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 13:00:33 --> Array to string conversion
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 13:00:41 --> Array to string conversion
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 APPPATH\Views\loket\v_detail_loket.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\loket\\v_detail_loket.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\loket\\v_detail_loket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 5 APPPATH\Controllers\Loket.php(54): view('loket/v_detail_loket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('2', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 13:54:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\loket\v_detail_loket.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('loket/v_detail_loket', [], true)
+ 4 APPPATH\Controllers\Loket.php(59): view('loket/v_detail_loket', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Loket->detail_loket('3', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 14:01:16 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Antrian.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->selesai('79')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 14:11:54 --> Attempt to read property "id_loket" on array
+in APPPATH\Views\antrian\v_antrian.php on line 56.
+ 1 APPPATH\Views\antrian\v_antrian.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_loket" on array', 'APPPATH\\Views\\antrian\\v_antrian.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\antrian\\v_antrian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('antrian/v_antrian', [], true)
+ 5 APPPATH\Controllers\Antrian.php(37): view('antrian/v_antrian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 14:48:59 --> syntax error, unexpected end of file
+in APPPATH\Views\home.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 14:53:48 --> Undefined array key "kode_antrian"
+in APPPATH\Views\home.php on line 46.
+ 1 APPPATH\Views\home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_antrian"', 'APPPATH\\Views\\home.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 14:53:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\home.php on line 46.
+ 1 APPPATH\Views\home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\home.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-06 15:02:15 --> syntax error, unexpected identifier "col", expecting "," or ";"
+in APPPATH\Views\pelayanan\v_pelayanan.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan/v_pelayanan', [], true)
+ 3 APPPATH\Controllers\Pelayanan.php(33): view('pelayanan/v_pelayanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): app\Controllers\Pelayanan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Pelayanan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
